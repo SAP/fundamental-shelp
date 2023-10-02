@@ -44,7 +44,7 @@ The run-time implementation may look like:
 
 ![screenshot](./assets/ValueInputHelpsDialog.jpg)
 
-## Prerequisites
+## Requirements
 
 The component is currently implemented in Python, running on Python app servers, with [PyRFC](https://github.com/SAP/PyRFC).
 
@@ -55,15 +55,15 @@ Supported platforms: Windows, Linux, macOS.
 ## Installation
 
 ```shell
-$ pip install fundamental-pyshlp
+pip install fundamental-pyshlp
 ```
 
 The development version can be installed from current master
 
 ```shell
-$ git clone https://github.com/SAP/pyshlp.git
-$ cd pyshlp
-$ python setup.py install
+git clone https://github.com/SAP/pyshlp.git
+cd pyshlp
+python setup.py install
 ```
 
 ## Usage
