@@ -44,7 +44,7 @@ The run-time implementation may look like:
 
 ![screenshot](./assets/ValueInputHelpsDialog.jpg)
 
-# Prerequisites
+## Prerequisites
 
 The component is currently implemented in Python, running on Python app servers, with [PyRFC](https://github.com/SAP/PyRFC).
 
@@ -52,7 +52,7 @@ Three remote enabled ABAP Function Modules (RFMs) are required in ABAP backend s
 
 Supported platforms: Windows, Linux, macOS.
 
-# Installation
+## Installation
 
 ```shell
 $ pip install fundamental-pyshlp
@@ -66,7 +66,7 @@ $ cd pyshlp
 $ python setup.py install
 ```
 
-# Usage
+## Usage
 
 Beside consumption by frontend components' custom `shlp` attribute, the Python interpreter can be used for interactive CLI testing and experimenting.
 
@@ -122,18 +122,22 @@ $ pip install tox
 $ tox
 ```
 
-# Known Issues
+## Known Issues
 
 Click [here](https://github.com/SAP/fundamental-shelp/issues) to view the current issues.
 
-# Getting Support
+## Getting Support
 
 If you encounter an issue, you can [create a ticket](https://github.com/SAP/fundamental-shelp/issues).
 
-# Contributing
+## Contributing
 
 If you want to contribute, please check the [CONTRIBUTING.md](CONTRIBUTING.md) documentation for contribution guidelines.
 
-# License
+## Code of Conduct
+
+See [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+## License
 
 Copyright (c) 2018-2021 SAP SE or an SAP affiliate company and fundamental-shelp contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/fundamental-shelp).
